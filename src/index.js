@@ -27,6 +27,7 @@ class Sorter {
   sort(indices) {
     // your implementation
 	var tempArray=new Array(); 
+	indices.sort();
 	for(var i=0;i<indices.length;i++){ 
 		tempArray.push(this.array[indices[i]]); 
 	} 
@@ -41,5 +42,3 @@ class Sorter {
     // your implementation
   }
 }
-
-module.exports = Sorter;
